@@ -23,3 +23,6 @@ Thumbs.db
 
 # Other temp files
 store_page.md
+docs/marketing/
+*.png
+*.jpg

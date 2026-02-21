@@ -1,0 +1,26 @@
+# ======================================== #
+#          HoloShop - Main Config       #
+# ======================================== #
+
+# Prefix for all plugin messages
+prefix: "&8[&eHoloShop&8] "
+
+# GUI Settings
+gui:
+  main-title: "&8» &0Marketplace"
+  transaction-title: "&8» &0Confirm Purchase"
+  size: 54
+
+# Sound Effects (Plays to the player)
+sounds:
+  open-menu: "BLOCK_CHEST_OPEN"
+  purchase-success: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  purchase-fail: "ENTITY_VILLAGER_NO"
+  click: "UI_BUTTON_CLICK"
+
+# Messages
+messages:
+  not-enough-money: "&cYou do not have enough money for this!"
+  purchase-success: "&aSuccessfully bought {amount}x {item} for {price}!"
+  sell-success: "&aSuccessfully sold {amount}x {item} for {price}!"
+  inventory-full: "&cYour inventory is full!"

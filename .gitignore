@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+gradle_temp/
+gradle-8.5-bin.zip
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Logs
+*.log
+*.log.*
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Other temp files
+store_page.md

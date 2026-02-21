@@ -1,0 +1,71 @@
+# ======================================== #
+#          HoloShop - Shop Config       #
+# ======================================== #
+# Note: Set price format to -1 to disable buying or selling
+
+categories:
+  blocks:
+    title: "&8» &3Building Blocks"
+    material: "BRICKS"
+    slot: 11
+    items:
+      dirt:
+        material: "DIRT"
+        slot: 10
+        buy-price: 2.0
+        sell-price: 0.5
+        default-amount: 64
+      cobblestone:
+        material: "COBBLESTONE"
+        slot: 11
+        buy-price: 5.0
+        sell-price: 1.0
+        default-amount: 64
+      glass:
+        material: "GLASS"
+        slot: 12
+        buy-price: 15.0
+        sell-price: 3.0
+        default-amount: 64
+
+  ores:
+    title: "&8» &bOres & Minerals"
+    material: "DIAMOND"
+    slot: 13
+    items:
+      coal:
+        material: "COAL"
+        slot: 10
+        buy-price: 10.0
+        sell-price: 2.5
+        default-amount: 32
+      iron_ingot:
+        material: "IRON_INGOT"
+        slot: 11
+        buy-price: 50.0
+        sell-price: 15.0
+        default-amount: 16
+      diamond:
+        material: "DIAMOND"
+        slot: 12
+        buy-price: 500.0
+        sell-price: 100.0
+        default-amount: 1
+
+  farming:
+    title: "&8» &aFarming Goods"
+    material: "WHEAT"
+    slot: 15
+    items:
+      wheat_seeds:
+        material: "WHEAT_SEEDS"
+        slot: 10
+        buy-price: 5.0
+        sell-price: -1.0 # Cannot be sold
+        default-amount: 16
+      carrot:
+        material: "CARROT"
+        slot: 11
+        buy-price: 12.0
+        sell-price: 3.0
+        default-amount: 32

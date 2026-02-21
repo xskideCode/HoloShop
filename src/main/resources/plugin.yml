@@ -1,0 +1,19 @@
+name: HoloShop
+version: '${version}'
+main: com.antigravity.holoshop.HoloShopPlugin
+api-version: '1.21'
+prefix: HoloShop
+authors: [AntiGravity]
+description: A premium, fast, and feature-rich visual economy shop.
+
+depend:
+  - Vault
+
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  shop:
+    description: Opens the main shop menu.
+    aliases: [market, store]
+    usage: /shop
